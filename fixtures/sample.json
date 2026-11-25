@@ -1,5 +1,30 @@
 {
   "说明": "本地合成演练资料",
   "业务对象": "序列化兼容包的局部升级与旧读者隔离",
-  "记录": []
+  "记录": [
+    {
+      "encoding": "jsonl",
+      "version": "v1",
+      "field": "mass",
+      "unit": "kg",
+      "seq": 1,
+      "value": 2.0
+    },
+    {
+      "encoding": "dictbin",
+      "version": "v2",
+      "field": "mass",
+      "unit": "kg",
+      "seq": 2,
+      "value": 2.1
+    },
+    {
+      "encoding": "dictbin",
+      "version": "v2",
+      "field": "mode",
+      "unit": "A",
+      "seq": 3,
+      "value": "ready"
+    }
+  ]
 }
